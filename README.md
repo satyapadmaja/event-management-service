@@ -76,7 +76,9 @@ Window 1 - Run the application
 
    # Run the Flask app
    cd /Users/mantha/AI-Projects/event-management-service
-   python -m src.app
+   export FLASK_APP=src.app
+   flask run
+   #python -m src.app
 
 Window 2 - Run LLM
 
